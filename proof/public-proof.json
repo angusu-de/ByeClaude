@@ -1,0 +1,807 @@
+{
+  "claim": "Separate account, same maintainer; CI evidence, not a third-party audit.",
+  "badge_design_source": "IamAngusU/Badges",
+  "badge_design_source_commit": "775ec50cbc778fc4e4181ba14b98f9fc0beb4e5c",
+  "repository": "angusu-de/ByeClaude",
+  "head_sha": "56757462b388e58af893090343459c8d0da15085",
+  "run_id": 38130420810,
+  "run_attempt": 1,
+  "run_url": "https://github.com/angusu-de/ByeClaude/actions/runs/38130420810",
+  "run_conclusion": "success",
+  "jobs_success": 10,
+  "jobs_total": 10,
+  "jobs": [
+    {
+      "name": "Go ubuntu-latest",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/angusu-de/ByeClaude/actions/runs/38130420810/job/114443396653",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-10-11T10:00:55Z",
+          "completed_at": "2026-10-11T10:00:56Z"
+        },
+        {
+          "name": "Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-10-11T10:00:56Z",
+          "completed_at": "2026-10-11T10:00:57Z"
+        },
+        {
+          "name": "Prebuilt action on this platform",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-10-11T10:00:57Z",
+          "completed_at": "2026-10-11T10:00:58Z"
+        },
+        {
+          "name": "Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-10-11T10:00:58Z",
+          "completed_at": "2026-10-11T10:01:07Z"
+        },
+        {
+          "name": "Run go test ./...",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5,
+          "started_at": "2026-10-11T10:01:07Z",
+          "completed_at": "2026-10-11T10:01:26Z"
+        },
+        {
+          "name": "Run go vet ./...",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6,
+          "started_at": "2026-10-11T10:01:26Z",
+          "completed_at": "2026-10-11T10:01:28Z"
+        },
+        {
+          "name": "Run go build -trimpath ./cmd/byeclaude",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7,
+          "started_at": "2026-10-11T10:01:28Z",
+          "completed_at": "2026-10-11T10:01:31Z"
+        },
+        {
+          "name": "Native Windows hooks and recovery",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 8,
+          "started_at": "2026-10-11T10:01:31Z",
+          "completed_at": "2026-10-11T10:01:31Z"
+        },
+        {
+          "name": "Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 15,
+          "started_at": "2026-10-11T10:01:31Z",
+          "completed_at": "2026-10-11T10:01:31Z"
+        },
+        {
+          "name": "Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 16,
+          "started_at": "2026-10-11T10:01:31Z",
+          "completed_at": "2026-10-11T10:01:31Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 17,
+          "started_at": "2026-10-11T10:01:31Z",
+          "completed_at": "2026-10-11T10:01:31Z"
+        }
+      ]
+    },
+    {
+      "name": "Go windows-latest",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/angusu-de/ByeClaude/actions/runs/38130420810/job/114443396683",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-10-11T10:00:56Z",
+          "completed_at": "2026-10-11T10:00:58Z"
+        },
+        {
+          "name": "Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-10-11T10:00:58Z",
+          "completed_at": "2026-10-11T10:01:04Z"
+        },
+        {
+          "name": "Prebuilt action on this platform",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-10-11T10:01:04Z",
+          "completed_at": "2026-10-11T10:01:07Z"
+        },
+        {
+          "name": "Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-10-11T10:01:07Z",
+          "completed_at": "2026-10-11T10:01:33Z"
+        },
+        {
+          "name": "Run go test ./...",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5,
+          "started_at": "2026-10-11T10:01:33Z",
+          "completed_at": "2026-10-11T10:05:42Z"
+        },
+        {
+          "name": "Run go vet ./...",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6,
+          "started_at": "2026-10-11T10:05:42Z",
+          "completed_at": "2026-10-11T10:05:49Z"
+        },
+        {
+          "name": "Run go build -trimpath ./cmd/byeclaude",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7,
+          "started_at": "2026-10-11T10:05:49Z",
+          "completed_at": "2026-10-11T10:05:52Z"
+        },
+        {
+          "name": "Native Windows hooks and recovery",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8,
+          "started_at": "2026-10-11T10:05:52Z",
+          "completed_at": "2026-10-11T10:06:07Z"
+        },
+        {
+          "name": "Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 15,
+          "started_at": "2026-10-11T10:06:07Z",
+          "completed_at": "2026-10-11T10:06:08Z"
+        },
+        {
+          "name": "Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 16,
+          "started_at": "2026-10-11T10:06:08Z",
+          "completed_at": "2026-10-11T10:06:10Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 17,
+          "started_at": "2026-10-11T10:06:10Z",
+          "completed_at": "2026-10-11T10:06:10Z"
+        }
+      ]
+    },
+    {
+      "name": "Go macos-latest",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/angusu-de/ByeClaude/actions/runs/38130420810/job/114443396687",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-10-11T10:01:03Z",
+          "completed_at": "2026-10-11T10:01:05Z"
+        },
+        {
+          "name": "Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-10-11T10:01:05Z",
+          "completed_at": "2026-10-11T10:01:07Z"
+        },
+        {
+          "name": "Prebuilt action on this platform",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-10-11T10:01:07Z",
+          "completed_at": "2026-10-11T10:01:08Z"
+        },
+        {
+          "name": "Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-10-11T10:01:08Z",
+          "completed_at": "2026-10-11T10:01:30Z"
+        },
+        {
+          "name": "Run go test ./...",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5,
+          "started_at": "2026-10-11T10:01:30Z",
+          "completed_at": "2026-10-11T10:02:01Z"
+        },
+        {
+          "name": "Run go vet ./...",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6,
+          "started_at": "2026-10-11T10:02:01Z",
+          "completed_at": "2026-10-11T10:02:02Z"
+        },
+        {
+          "name": "Run go build -trimpath ./cmd/byeclaude",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7,
+          "started_at": "2026-10-11T10:02:02Z",
+          "completed_at": "2026-10-11T10:02:04Z"
+        },
+        {
+          "name": "Native Windows hooks and recovery",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 8,
+          "started_at": "2026-10-11T10:02:04Z",
+          "completed_at": "2026-10-11T10:02:04Z"
+        },
+        {
+          "name": "Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 15,
+          "started_at": "2026-10-11T10:02:04Z",
+          "completed_at": "2026-10-11T10:02:05Z"
+        },
+        {
+          "name": "Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 16,
+          "started_at": "2026-10-11T10:02:05Z",
+          "completed_at": "2026-10-11T10:02:05Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 17,
+          "started_at": "2026-10-11T10:02:05Z",
+          "completed_at": "2026-10-11T10:02:06Z"
+        }
+      ]
+    },
+    {
+      "name": "Race, coverage and fixtures",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/angusu-de/ByeClaude/actions/runs/38130420810/job/114443396392",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-10-11T10:00:55Z",
+          "completed_at": "2026-10-11T10:00:56Z"
+        },
+        {
+          "name": "Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-10-11T10:00:56Z",
+          "completed_at": "2026-10-11T10:00:56Z"
+        },
+        {
+          "name": "Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-10-11T10:00:56Z",
+          "completed_at": "2026-10-11T10:01:06Z"
+        },
+        {
+          "name": "Formatting",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-10-11T10:01:06Z",
+          "completed_at": "2026-10-11T10:01:06Z"
+        },
+        {
+          "name": "Module integrity",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5,
+          "started_at": "2026-10-11T10:01:06Z",
+          "completed_at": "2026-10-11T10:01:06Z"
+        },
+        {
+          "name": "Workflow syntax and semantics",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6,
+          "started_at": "2026-10-11T10:01:06Z",
+          "completed_at": "2026-10-11T10:01:15Z"
+        },
+        {
+          "name": "CI proof evidence tests",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7,
+          "started_at": "2026-10-11T10:01:15Z",
+          "completed_at": "2026-10-11T10:01:15Z"
+        },
+        {
+          "name": "Race detector",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8,
+          "started_at": "2026-10-11T10:01:15Z",
+          "completed_at": "2026-10-11T10:01:49Z"
+        },
+        {
+          "name": "Terminal input fuzzing",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9,
+          "started_at": "2026-10-11T10:01:49Z",
+          "completed_at": "2026-10-11T10:02:26Z"
+        },
+        {
+          "name": "Coverage floor",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10,
+          "started_at": "2026-10-11T10:02:26Z",
+          "completed_at": "2026-10-11T10:02:45Z"
+        },
+        {
+          "name": "Disposable fixture suite",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11,
+          "started_at": "2026-10-11T10:02:45Z",
+          "completed_at": "2026-10-11T10:02:50Z"
+        },
+        {
+          "name": "Self attribution guard",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 12,
+          "started_at": "2026-10-11T10:02:50Z",
+          "completed_at": "2026-10-11T10:02:51Z"
+        },
+        {
+          "name": "Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 23,
+          "started_at": "2026-10-11T10:02:51Z",
+          "completed_at": "2026-10-11T10:02:51Z"
+        },
+        {
+          "name": "Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 24,
+          "started_at": "2026-10-11T10:02:51Z",
+          "completed_at": "2026-10-11T10:02:51Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 25,
+          "started_at": "2026-10-11T10:02:51Z",
+          "completed_at": "2026-10-11T10:02:51Z"
+        }
+      ]
+    },
+    {
+      "name": "Dependency and static security gates",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/angusu-de/ByeClaude/actions/runs/38130420810/job/114443396659",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-10-11T10:00:55Z",
+          "completed_at": "2026-10-11T10:00:56Z"
+        },
+        {
+          "name": "Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-10-11T10:00:56Z",
+          "completed_at": "2026-10-11T10:00:57Z"
+        },
+        {
+          "name": "Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-10-11T10:00:57Z",
+          "completed_at": "2026-10-11T10:01:04Z"
+        },
+        {
+          "name": "Run go run golang.org/x/vuln/cmd/govulncheck@v1.8.0 ./...",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-10-11T10:01:04Z",
+          "completed_at": "2026-10-11T10:01:16Z"
+        },
+        {
+          "name": "Run go run github.com/securego/gosec/v2/cmd/gosec@7b1b5cebe007d62fb58eacb90fc571112939ec30 -exclude-generated ./...",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5,
+          "started_at": "2026-10-11T10:01:16Z",
+          "completed_at": "2026-10-11T10:01:54Z"
+        },
+        {
+          "name": "Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9,
+          "started_at": "2026-10-11T10:01:54Z",
+          "completed_at": "2026-10-11T10:01:54Z"
+        },
+        {
+          "name": "Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10,
+          "started_at": "2026-10-11T10:01:54Z",
+          "completed_at": "2026-10-11T10:01:55Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11,
+          "started_at": "2026-10-11T10:01:55Z",
+          "completed_at": "2026-10-11T10:01:55Z"
+        }
+      ]
+    },
+    {
+      "name": "Shell installer",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/angusu-de/ByeClaude/actions/runs/38130420810/job/114443396554",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-10-11T10:00:55Z",
+          "completed_at": "2026-10-11T10:00:56Z"
+        },
+        {
+          "name": "Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-10-11T10:00:56Z",
+          "completed_at": "2026-10-11T10:00:56Z"
+        },
+        {
+          "name": "Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-10-11T10:00:56Z",
+          "completed_at": "2026-10-11T10:01:06Z"
+        },
+        {
+          "name": "Run bash scripts/test-install-shell.sh",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-10-11T10:01:06Z",
+          "completed_at": "2026-10-11T10:01:09Z"
+        },
+        {
+          "name": "Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7,
+          "started_at": "2026-10-11T10:01:09Z",
+          "completed_at": "2026-10-11T10:01:09Z"
+        },
+        {
+          "name": "Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8,
+          "started_at": "2026-10-11T10:01:09Z",
+          "completed_at": "2026-10-11T10:01:09Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9,
+          "started_at": "2026-10-11T10:01:09Z",
+          "completed_at": "2026-10-11T10:01:09Z"
+        }
+      ]
+    },
+    {
+      "name": "PowerShell installer",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/angusu-de/ByeClaude/actions/runs/38130420810/job/114443396559",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-10-11T10:00:55Z",
+          "completed_at": "2026-10-11T10:00:56Z"
+        },
+        {
+          "name": "Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-10-11T10:00:56Z",
+          "completed_at": "2026-10-11T10:01:02Z"
+        },
+        {
+          "name": "Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-10-11T10:01:02Z",
+          "completed_at": "2026-10-11T10:01:37Z"
+        },
+        {
+          "name": "Run pwsh -NoProfile -File scripts/test-install-powershell.ps1",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-10-11T10:01:37Z",
+          "completed_at": "2026-10-11T10:01:42Z"
+        },
+        {
+          "name": "Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7,
+          "started_at": "2026-10-11T10:01:42Z",
+          "completed_at": "2026-10-11T10:01:42Z"
+        },
+        {
+          "name": "Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8,
+          "started_at": "2026-10-11T10:01:42Z",
+          "completed_at": "2026-10-11T10:01:44Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9,
+          "started_at": "2026-10-11T10:01:44Z",
+          "completed_at": "2026-10-11T10:01:44Z"
+        }
+      ]
+    },
+    {
+      "name": "Reproducible release set and SBOM",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/angusu-de/ByeClaude/actions/runs/38130420810/job/114443396676",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-10-11T10:00:56Z",
+          "completed_at": "2026-10-11T10:00:57Z"
+        },
+        {
+          "name": "Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-10-11T10:00:57Z",
+          "completed_at": "2026-10-11T10:00:58Z"
+        },
+        {
+          "name": "Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-10-11T10:00:58Z",
+          "completed_at": "2026-10-11T10:01:10Z"
+        },
+        {
+          "name": "Run pwsh -NoProfile -File scripts/test-release-reproducibility.ps1",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-10-11T10:01:10Z",
+          "completed_at": "2026-10-11T10:02:26Z"
+        },
+        {
+          "name": "Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7,
+          "started_at": "2026-10-11T10:02:26Z",
+          "completed_at": "2026-10-11T10:02:26Z"
+        },
+        {
+          "name": "Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8,
+          "started_at": "2026-10-11T10:02:26Z",
+          "completed_at": "2026-10-11T10:02:26Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9,
+          "started_at": "2026-10-11T10:02:26Z",
+          "completed_at": "2026-10-11T10:02:27Z"
+        }
+      ]
+    },
+    {
+      "name": "Demo container health",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/angusu-de/ByeClaude/actions/runs/38130420810/job/114443396638",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-10-11T10:00:55Z",
+          "completed_at": "2026-10-11T10:00:56Z"
+        },
+        {
+          "name": "Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-10-11T10:00:56Z",
+          "completed_at": "2026-10-11T10:00:57Z"
+        },
+        {
+          "name": "Build and probe non-root demo image",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-10-11T10:00:57Z",
+          "completed_at": "2026-10-11T10:01:22Z"
+        },
+        {
+          "name": "Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6,
+          "started_at": "2026-10-11T10:01:22Z",
+          "completed_at": "2026-10-11T10:01:22Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7,
+          "started_at": "2026-10-11T10:01:22Z",
+          "completed_at": "2026-10-11T10:01:22Z"
+        }
+      ]
+    },
+    {
+      "name": "Composite action self-test",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/angusu-de/ByeClaude/actions/runs/38130420810/job/114443396606",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-10-11T10:00:55Z",
+          "completed_at": "2026-10-11T10:00:55Z"
+        },
+        {
+          "name": "Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-10-11T10:00:55Z",
+          "completed_at": "2026-10-11T10:00:56Z"
+        },
+        {
+          "name": "Pinned binary, failure and argument-handling tests",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-10-11T10:00:56Z",
+          "completed_at": "2026-10-11T10:00:57Z"
+        },
+        {
+          "name": "Old history and shallow checkout integration",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-10-11T10:00:57Z",
+          "completed_at": "2026-10-11T10:00:57Z"
+        },
+        {
+          "name": "Run ./",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5,
+          "started_at": "2026-10-11T10:00:57Z",
+          "completed_at": "2026-10-11T10:00:58Z"
+        },
+        {
+          "name": "Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10,
+          "started_at": "2026-10-11T10:00:58Z",
+          "completed_at": "2026-10-11T10:00:58Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11,
+          "started_at": "2026-10-11T10:00:58Z",
+          "completed_at": "2026-10-11T10:00:58Z"
+        }
+      ]
+    }
+  ]
+}
